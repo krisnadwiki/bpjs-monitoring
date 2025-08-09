@@ -1,0 +1,48 @@
+# Kredensial dan konfigurasi sensitif
+*.env
+
+# Data monitoring
+data/*.json
+data/*.csv
+data/archive/
+sample_data.json
+
+# Log files
+logs/*.log
+logs/*.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Cache files
+cache/
+tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP cache
+opcache/
+vendor/
+
+# Backup files
+backup/
+*.zip
+*.tar.gz
+
+# Development files
+test_*.php
+demo_*.php
+*_test.*
